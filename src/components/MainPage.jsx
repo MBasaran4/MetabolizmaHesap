@@ -102,7 +102,7 @@ function MainPage() {
           <li>
             <a className='title'>Matematik</a>
             <div className='nalt'>
-              <a href="">Yakında..</a>
+              <a href="">Yakında..</a> 
             </div>
           </li>
         </div>
