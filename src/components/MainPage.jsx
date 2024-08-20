@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './MainPage.css'; 
-import Navbar from '../../../hesapkitap/src/components/Navbar';
+import Navbar from './Navbar';
 
 
 function MainPage() {
