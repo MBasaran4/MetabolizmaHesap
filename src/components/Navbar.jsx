@@ -97,13 +97,13 @@ function Navbar() {
                     <li>
                         <a className='title'>Zaman</a>
                         <div className='nalt'>
-                            <a href="">Yaş Hesaplama</a>
+                            <a href="https://yas-hesaplama-ten.vercel.app/">Yaş Hesaplama</a>
                         </div>
                     </li>
                     <li>
                         <a className='title'>Eğitim</a>
                         <div className='nalt'>
-                            <a href="">Vize Final Hesaplama</a>
+                            <a href="https://vize-final-hesap.vercel.app/">Vize Final Hesaplama</a>
                         </div>
                     </li>
                 </div>
@@ -128,13 +128,13 @@ function Navbar() {
                     <li>
                         <a className='mTitle' onClick={toggleNaltZaman}>Zaman</a>
                         <div className={`mNalt ${isNaltOpenZaman ? 'active' : ''}`}>
-                            <a href="">Yaş Hesaplama</a>
+                            <a href="https://yas-hesaplama-ten.vercel.app/">Yaş Hesaplama</a>
                         </div>
                     </li>
                     <li>
                         <a className='mTitle' onClick={toggleNaltEgitim}>Egitim</a>
                         <div className={`mNalt ${isNaltOpenEgitim ? 'active' : ''}`}>
-                            <a href="">Vize Final Hesaplama</a>
+                            <a href="https://vize-final-hesap.vercel.app/">Vize Final Hesaplama</a>
                         </div>
                     </li>
                 </div>
